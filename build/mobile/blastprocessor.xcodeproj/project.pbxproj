@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C050D3F1D16B7E500F865C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C050D3D1D16B7E500F865C4 /* LaunchScreen.storyboard */; };
+		8C319FA3232D60A90051792B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C319FA2232D60A80051792B /* AudioToolbox.framework */; };
+		8C341D9E22E3140400B5C749 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C341D9D22E3140400B5C749 /* OpenGLES.framework */; };
+		8C341DA022E3141600B5C749 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C341D9922E313CD00B5C749 /* GLKit.framework */; };
+		8C4C3321271B334200CB6E83 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C4C3320271B334200CB6E83 /* GameController.framework */; };
+		8C7185BE1D11C56C00F98056 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7185BD1D11C56C00F98056 /* main.m */; };
+		8C7185C11D11C56C00F98056 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7185C01D11C56C00F98056 /* AppDelegate.m */; };
+		8C7185C71D11C56C00F98056 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7185C51D11C56C00F98056 /* Main.storyboard */; settings = {ASSET_TAGS = (1, ); }; };
+		8C7185C91D11C56C00F98056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C7185C81D11C56C00F98056 /* Assets.xcassets */; };
+		8CB110C1230972630064D8CE /* MobileEbitenViewControllerWithErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB110C0230972630064D8CE /* MobileEbitenViewControllerWithErrorHandling.m */; };
+		8CCAFF0B22E3133E00FAEDC1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CCAFF0A22E3133E00FAEDC1 /* AVFoundation.framework */; };
+		C5EFFFE22926D076009890FE /* Mobile.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CCA2AD72784D18900F93EF7 /* Mobile.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C050D3E1D16B7E500F865C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = blastprocessor/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C319FA2232D60A80051792B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8C341D9922E313CD00B5C749 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		8C341D9D22E3140400B5C749 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8C4C3320271B334200CB6E83 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
+		8C7185B91D11C56C00F98056 /* Blast Processor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blast Processor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7185BD1D11C56C00F98056 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C7185BF1D11C56C00F98056 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C7185C01D11C56C00F98056 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C7185C61D11C56C00F98056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C7185C81D11C56C00F98056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C7185CD1D11C56C00F98056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CB110C0230972630064D8CE /* MobileEbitenViewControllerWithErrorHandling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileEbitenViewControllerWithErrorHandling.m; sourceTree = "<group>"; };
+		8CB110C22309728C0064D8CE /* MobileEbitenViewControllerWithErrorHandling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileEbitenViewControllerWithErrorHandling.h; sourceTree = "<group>"; };
+		8CCA2AD72784D18900F93EF7 /* Mobile.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Mobile.xcframework; sourceTree = "<group>"; };
+		8CCAFF0A22E3133E00FAEDC1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C7185B61D11C56C00F98056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C319FA3232D60A90051792B /* AudioToolbox.framework in Frameworks */,
+				8C341DA022E3141600B5C749 /* GLKit.framework in Frameworks */,
+				8C4C3321271B334200CB6E83 /* GameController.framework in Frameworks */,
+				8C341D9E22E3140400B5C749 /* OpenGLES.framework in Frameworks */,
+				8CCAFF0B22E3133E00FAEDC1 /* AVFoundation.framework in Frameworks */,
+				C5EFFFE22926D076009890FE /* Mobile.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C7185B01D11C56C00F98056 = {
+			isa = PBXGroup;
+			children = (
+				8C7185BB1D11C56C00F98056 /* blastprocessor */,
+				8C7185BA1D11C56C00F98056 /* Products */,
+				8CCAFF0922E3133E00FAEDC1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8C7185BA1D11C56C00F98056 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C7185B91D11C56C00F98056 /* Blast Processor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C7185BB1D11C56C00F98056 /* blastprocessor */ = {
+			isa = PBXGroup;
+			children = (
+				8C7185BF1D11C56C00F98056 /* AppDelegate.h */,
+				8C7185C01D11C56C00F98056 /* AppDelegate.m */,
+				8CB110C22309728C0064D8CE /* MobileEbitenViewControllerWithErrorHandling.h */,
+				8CB110C0230972630064D8CE /* MobileEbitenViewControllerWithErrorHandling.m */,
+				8C7185C51D11C56C00F98056 /* Main.storyboard */,
+				8C050D3D1D16B7E500F865C4 /* LaunchScreen.storyboard */,
+				8C7185C81D11C56C00F98056 /* Assets.xcassets */,
+				8C7185CD1D11C56C00F98056 /* Info.plist */,
+				8C7185BC1D11C56C00F98056 /* Supporting Files */,
+			);
+			path = blastprocessor;
+			sourceTree = "<group>";
+		};
+		8C7185BC1D11C56C00F98056 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C7185BD1D11C56C00F98056 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CCAFF0922E3133E00FAEDC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CCA2AD72784D18900F93EF7 /* Mobile.xcframework */,
+				8C4C3320271B334200CB6E83 /* GameController.framework */,
+				8C319FA2232D60A80051792B /* AudioToolbox.framework */,
+				8C341D9D22E3140400B5C749 /* OpenGLES.framework */,
+				8C341D9922E313CD00B5C749 /* GLKit.framework */,
+				8CCAFF0A22E3133E00FAEDC1 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C7185B81D11C56C00F98056 /* Blast Processor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C7185D01D11C56C00F98056 /* Build configuration list for PBXNativeTarget "Blast Processor" */;
+			buildPhases = (
+				8C7185B51D11C56C00F98056 /* Sources */,
+				8C7185B61D11C56C00F98056 /* Frameworks */,
+				8C7185B71D11C56C00F98056 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blast Processor";
+			productName = blastprocessor;
+			productReference = 8C7185B91D11C56C00F98056 /* Blast Processor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C7185B11D11C56C00F98056 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					1,
+				);
+				LastUpgradeCheck = 1320;
+				ORGANIZATIONNAME = "Symbolic Software";
+				TargetAttributes = {
+					8C7185B81D11C56C00F98056 = {
+						CreatedOnToolsVersion = 7.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8C7185B41D11C56C00F98056 /* Build configuration list for PBXProject "blastprocessor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C7185B01D11C56C00F98056;
+			productRefGroup = 8C7185BA1D11C56C00F98056 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C7185B81D11C56C00F98056 /* Blast Processor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C7185B71D11C56C00F98056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C050D3F1D16B7E500F865C4 /* LaunchScreen.storyboard in Resources */,
+				8C7185C91D11C56C00F98056 /* Assets.xcassets in Resources */,
+				8C7185C71D11C56C00F98056 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C7185B51D11C56C00F98056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB110C1230972630064D8CE /* MobileEbitenViewControllerWithErrorHandling.m in Sources */,
+				8C7185C11D11C56C00F98056 /* AppDelegate.m in Sources */,
+				8C7185BE1D11C56C00F98056 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8C050D3D1D16B7E500F865C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C050D3E1D16B7E500F865C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8C7185C51D11C56C00F98056 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C7185C61D11C56C00F98056 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C7185CE1D11C56C00F98056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8C7185CF1D11C56C00F98056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		8C7185D11D11C56C00F98056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = blastprocessor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Blast Processor";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.symbolicsoft.BlastProcessor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C7185D21D11C56C00F98056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = blastprocessor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Blast Processor";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.symbolicsoft.BlastProcessor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C7185B41D11C56C00F98056 /* Build configuration list for PBXProject "blastprocessor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C7185CE1D11C56C00F98056 /* Debug */,
+				8C7185CF1D11C56C00F98056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C7185D01D11C56C00F98056 /* Build configuration list for PBXNativeTarget "Blast Processor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C7185D11D11C56C00F98056 /* Debug */,
+				8C7185D21D11C56C00F98056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C7185B11D11C56C00F98056 /* Project object */;
+}

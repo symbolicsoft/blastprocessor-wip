@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, height=device-height">
+	<title>Blast Processor</title>
+	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+	<script>
+		if (location.href !== "https://blastprocessor.app/wasm/") {
+			location.href = "https://blastprocessor.app/wasm/"
+		}
+	</script>
+	<style>
+		* {
+			overflow: hidden !important;
+		}
+
+		body {
+			background: #000;
+			color: #FFF;
+			font-family: sans-serif;
+		}
+
+		div#loading {
+			margin: 6% auto 0 auto;
+			width: 200px;
+			padding: 20px;
+			border: 1px solid #FFF;
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="loading">
+		<p>Loading<br />Please wait...</p>
+	</div>
+	<script src="wasm_exec.js"></script>
+	<script>
+		if (!WebAssembly.instantiateStreaming) {
+			WebAssembly.instantiateStreaming = async (resp, importObject) => {
+				const source = await (await resp).arrayBuffer()
+				return await WebAssembly.instantiate(source, importObject)
+			};
+		}
+		const go = new Go()
+		WebAssembly.instantiateStreaming(fetch("blastprocessor.wasm"), go.importObject).then(result => {
+			go.run(result.instance)
+		});
+	</script>
+</body>
+
+</html>
