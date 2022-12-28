@@ -1,12 +1,5 @@
 # Blast Processor
 
-```
-Copyright (C) Symbolic Software — All Rights Reserved
-Unauthorized copying of any materials, via any medium is strictly prohibited
-Proprietary and confidential
-Written by Nadim Kobeissi <nadim@symbolic.software>
-```
-
 ## Credits
 
 - **Nadim Kobeissi**: Gameplay, story, design, characters, concept, programming, direction.
